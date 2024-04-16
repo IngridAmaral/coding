@@ -1,4 +1,4 @@
-const ArrowRight = () => {
+const User = () => {
   return (
     <>
       <svg
@@ -27,4 +27,4 @@ const ArrowRight = () => {
   );
 };
 
-export default ArrowRight;
+export default User;
