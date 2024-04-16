@@ -88,15 +88,15 @@ export const PlanName = styled.div`
   `}
 `;
 
-export const Step = styled.div`
-  ${({ theme: { spaces, colors } }) => `
+export const Step = styled.div<{ $status?: string }>`
+  ${({ theme: { spaces, colors }, $status }) => `
     display: flex;
     justify-content: center;
     font-size: 14px;
-    color: ${colors.black};
+    color: ${$status === "done" ? colors.white : colors.black};
     gap: ${spaces.byte};
     width: 100%;
-    background: ${colors.white};
+    background: ${$status === "done" ? colors.green : colors.white};
     position: relative;
     margin-right: ${spaces.bit};
     min-height: 70px;

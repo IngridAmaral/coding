@@ -8,6 +8,7 @@ import Header from "../../components/header/Header";
   phone: 9108627836,
 };
 */
+
 const User = () => (
   <>
     <Header title="User" />

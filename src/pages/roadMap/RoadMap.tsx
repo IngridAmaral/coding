@@ -17,46 +17,49 @@ const roadmap = [
     status: "incomplete",
     steps: [
       { name: "Establish Risk Management System", status: "done" },
-      { name: "User Needs", status: "done" },
+      { name: "User Needs", status: "incomplete" },
       { name: "Software and Design Development", status: "done" },
-      { name: "Purchasing, Sales and Suppliers", status: "done" },
-      { name: "Design Stage Checklists", status: "done" },
+      { name: "Purchasing, Sales and Suppliers", status: "incomplete" },
+      { name: "Design Stage Checklists", status: "incomplete" },
     ],
   },
   {
     name: "Testing and Validation",
     status: "incomplete",
     steps: [
-      { name: "Usability and Human Factors Egineering", status: "done" },
-      { name: "Clinical Investigations", status: "done" },
-      { name: "Sorftware Verification and Validation", status: "done" },
-      { name: "Complaints and Feedback", status: "done" },
-      { name: "Design Stage Checklists", status: "done" },
-      { name: "Training", status: "done" },
-      { name: "Testing and Validation Stage Checklists", status: "done" },
+      { name: "Usability and Human Factors Egineering", status: "incomplete" },
+      { name: "Clinical Investigations", status: "incomplete" },
+      { name: "Sorftware Verification and Validation", status: "incomplete" },
+      { name: "Complaints and Feedback", status: "incomplete" },
+      { name: "Design Stage Checklists", status: "incomplete" },
+      { name: "Training", status: "incomplete" },
+      { name: "Testing and Validation Stage Checklists", status: "incomplete" },
     ],
   },
   {
     name: "Regulatory Preparation",
     status: "incomplete",
     steps: [
-      { name: "Labeling, Instructions for Use, and Manuals", status: "done" },
-      { name: "Post-Market Surveillance", status: "done" },
-      { name: "Clinical Evaluation", status: "done" },
+      {
+        name: "Labeling, Instructions for Use, and Manuals",
+        status: "incomplete",
+      },
+      { name: "Post-Market Surveillance", status: "incomplete" },
+      { name: "Clinical Evaluation", status: "incomplete" },
       {
         name: "General Safety and Performance Requirements Checklist",
-        status: "done",
+        status: "incomplete",
       },
-      { name: "Audist and Review", status: "done" },
+      { name: "Audist and Review", status: "incomplete" },
     ],
   },
   {
     name: "Submission",
     status: "incomplete",
     steps: [
-      { name: "Declaration of Conformity", status: "done" },
-      { name: "UDI Creation and EUDAMED Registration", status: "done" },
-      { name: "Generate Technical File", status: "done" },
+      { name: "Declaration of Conformity", status: "incomplete" },
+      { name: "UDI Creation and EUDAMED Registration", status: "incomplete" },
+      { name: "Generate Technical File", status: "incomplete" },
     ],
   },
 ];
@@ -69,7 +72,7 @@ const RoadMap = () => (
         <Plan>
           <PlanName>{plan.name}</PlanName>
           {plan.steps.map((step) => (
-            <Step>{step.name}</Step>
+            <Step $status={step.status}>{step.name}</Step>
           ))}
         </Plan>
       ))}
