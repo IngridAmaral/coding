@@ -15,8 +15,8 @@ export const Container = styled.div<{ $isExpanded?: boolean }>`
   `}
 `;
 
-export const LogoWrapper = styled.div<{ $isExpanded?: boolean }>`
-  ${({ theme: { spaces, borderRadius }, $isExpanded }) => `
+export const LogoWrapper = styled.div`
+  ${({ theme: { spaces, borderRadius } }) => `
     display: flex;
     align-items: center;
     justify-content: space-between;

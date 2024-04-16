@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
 import Header from "@components/header/Header";
-import { Plan, PlanName, RoadmapWrapper, Step } from "./RoadMap.styled";
+import { Plan, PlanName, RoadmapWrapper, Step } from "./Roadmap.styled";
 import { mockedResponse } from "../../mockResponse";
 import { useEffect, useState } from "react";
 import Loading from "../loading/Loading";
 
-const RoadMap = () => {
+const Roadmap = () => {
   let { id } = useParams<{ id: keyof typeof mockedResponse.devices }>();
   const [isLoading, setIsLoading] = useState(true);
 
@@ -42,4 +42,4 @@ const RoadMap = () => {
   }
 };
 
-export default RoadMap;
+export default Roadmap;

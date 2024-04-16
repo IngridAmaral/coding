@@ -1,6 +1,6 @@
 import Devices from "./pages/devices/Devices.tsx";
 import App from "./App.tsx";
-import RoadMap from "./pages/roadMap/RoadMap.tsx";
+import Roadmap from "./pages/roadmap/Roadmap.tsx";
 import User from "./pages/user/User.tsx";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -29,7 +29,7 @@ export const router = createBrowserRouter([
     path: "devices/:id/road-map",
     element: (
       <App>
-        <RoadMap />
+        <Roadmap />
       </App>
     ),
   },

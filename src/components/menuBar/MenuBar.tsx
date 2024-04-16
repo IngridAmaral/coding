@@ -17,7 +17,7 @@ const MenuBar = () => {
 
   return (
     <Container $isExpanded={isExpanded}>
-      <LogoWrapper $isExpanded={isExpanded}>
+      <LogoWrapper>
         <Logo $isExpanded={isExpanded}>
           <img
             src="https://assets-global.website-files.com/64089d5ecfeb0c6fbf31087b/65761b6fae4a910bcfa95a6c_FormlyAI-_5_.webp"
