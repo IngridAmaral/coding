@@ -1,14 +1,6 @@
 import { useState } from "react";
 import { Container, IconContainer, Logo, LogoWrapper } from "./MenuBar.styled";
-import {
-  ArrowLeft,
-  ArrowRight,
-  Billing,
-  Contact,
-  Devices,
-  Progress,
-  User,
-} from "@icons";
+import { ArrowRight, Billing, Contact, Devices, Progress, User } from "@icons";
 import Item from "./item/Item";
 
 const icons = [
@@ -35,8 +27,11 @@ const MenuBar = () => {
             alt="Logo"
           />
         </Logo>
-        <IconContainer onClick={() => setIsExpanded(!isExpanded)}>
-          {isExpanded ? <ArrowLeft /> : <ArrowRight />}
+        <IconContainer
+          $isExpanded={isExpanded}
+          onClick={() => setIsExpanded(!isExpanded)}
+        >
+          <ArrowRight />
         </IconContainer>
       </LogoWrapper>
       {icons.map((item) => (

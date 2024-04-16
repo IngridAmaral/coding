@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const DevicesWrapper = styled.div`
   ${({ theme: { spaces } }) => `
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: ${spaces.giga};
     width: 100%;
   `}

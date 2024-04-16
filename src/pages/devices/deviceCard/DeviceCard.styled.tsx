@@ -102,9 +102,12 @@ export const IntercationsIcon = styled.div`
   `}
 `;
 
-export const Name = styled.div``;
-export const DeviceKey = styled.div``;
-export const DeviceValue = styled.div``;
+export const TextWrapper = styled.div``;
+
+export const DeviceKey = styled.span`
+  font-weight: bold;
+`;
+export const DeviceValue = styled.span``;
 
 export const LeftInteractions = styled.div`
   ${({ theme: { spaces } }) => `

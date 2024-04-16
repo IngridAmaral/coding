@@ -10,3 +10,4 @@ export { default as Edit } from "./Edit";
 export { default as RoadMap } from "./RoadMap";
 export { default as Back } from "./Back";
 export { default as CaretRight } from "./CaretRight";
+export { default as Load } from "./Load";

@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
     ),
   },
   {
-    path: "devices/id/road-map",
+    path: "devices/:id/road-map",
     element: (
       <App>
         <RoadMap />

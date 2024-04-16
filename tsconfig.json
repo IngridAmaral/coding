@@ -6,7 +6,9 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "paths": {
-      "@icons": ["./src/assets"]
+      "@icons": ["./src/assets"],
+      "@components/*": ["./src/components/*"],
+      "@types": ["./src/types.ts"]
     },
 
     /* Bundler mode */

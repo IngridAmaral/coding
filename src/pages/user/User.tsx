@@ -1,13 +1,4 @@
-import Header from "../../components/header/Header";
-
-/* const userInfo = {
-  name: "Anina",
-  company: "LipoCheck",
-  address: "Marienburger Straße 28 10405 Berlin",
-  contact: "info@lipocheck.de",
-  phone: 9108627836,
-};
-*/
+import Header from "@components/header/Header";
 
 const User = () => (
   <>

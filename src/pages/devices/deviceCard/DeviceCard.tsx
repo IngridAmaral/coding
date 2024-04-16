@@ -1,36 +1,43 @@
 import { Edit, RoadMap } from "@icons";
 import {
   Device,
-  Name,
+  TextWrapper,
   IntercationsIcon,
   LeftInteractions,
+  DeviceKey,
+  DeviceValue,
 } from "./DeviceCard.styled";
 import { Link } from "react-router-dom";
-import Popover from "../../../components/popover/Popover";
+import Popover from "@components/popover/Popover";
+import { TDevice } from "@types";
 
-export type Device = {
-  name: string;
-  type: string;
-  class: string;
-  description: string;
-  progress: number;
-};
-
-const DeviceCard = ({ device }: { device: Device }) => (
+const DeviceCard = ({ device }: { device: TDevice }) => (
   <>
     <Device $progress={device.progress}>
-      <Name>Name: {device.name}</Name>
-      <Name>Type: {device.type}</Name>
-      <Name>Class: {device.class}</Name>
-      <Name>Description: {device.description}</Name>
+      <TextWrapper>
+        <DeviceKey>Name: </DeviceKey>
+        <DeviceValue>{device.name}</DeviceValue>
+      </TextWrapper>
+      <TextWrapper>
+        <DeviceKey>Type: </DeviceKey>
+        <DeviceValue>{device.type}</DeviceValue>
+      </TextWrapper>
+      <TextWrapper>
+        <DeviceKey>Class: </DeviceKey>
+        <DeviceValue>{device.class}</DeviceValue>
+      </TextWrapper>
+      <TextWrapper>
+        <DeviceKey>Description: </DeviceKey>
+        <DeviceValue>{device.description}</DeviceValue>
+      </TextWrapper>
       <LeftInteractions>
-        <Link to="id/road-map">
+        <Link to={`${device.id}/road-map`}>
           <IntercationsIcon>
             <RoadMap />
             <Popover text="Road Map" id="road-map" />
           </IntercationsIcon>
         </Link>
-        <Link to="id/road-map">
+        <Link to="/devices">
           <IntercationsIcon>
             <Edit />
             <Popover text="Edit" id="edit" />
