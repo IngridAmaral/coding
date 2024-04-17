@@ -18,14 +18,20 @@ const Item = ({
   isActive: boolean;
   isExpanded: boolean;
 }) => (
-  <LinkWrapper to={item.link} onClick={onClick} $isActive={isActive}>
+  <LinkWrapper
+    to={item.link}
+    onClick={onClick}
+    $isExpanded={isExpanded}
+    $isActive={isActive}
+  >
     <IconContainer $isActive={isActive}>
       {item.icon}
       {!isExpanded && (
         <Popover text={item.name} id={item.name} top={100} align="right" />
       )}
     </IconContainer>
-    {isExpanded && <ItemText $isActive={isActive}>{item.name}</ItemText>}
+
+    <ItemText $isActive={isActive}>{item.name}</ItemText>
   </LinkWrapper>
 );
 export default Item;

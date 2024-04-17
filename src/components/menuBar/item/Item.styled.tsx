@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const LinkWrapper = styled(Link)<{ $isActive?: boolean }>`
-  ${({ theme: { spaces, borderRadius, colors }, $isActive }) => ` 
+export const LinkWrapper = styled(Link)<{
+  $isActive?: boolean;
+  $isExpanded?: boolean;
+}>`
+  ${({ theme: { spaces, borderRadius, colors }, $isActive, $isExpanded }) => ` 
     display: flex;
     align-items: center;
     height: 40px;
@@ -12,8 +15,10 @@ export const LinkWrapper = styled(Link)<{ $isActive?: boolean }>`
     border-radius: ${borderRadius};
     cursor: pointer;
     background: ${$isActive ? colors.secondary : colors.lightGray};
-    transition: all 500ms;
+    width: ${$isExpanded ? "190px" : "40px"};
+    transition: width 1s ease-in-out;
 
+  
     #User,
     #Progress,
     #Devices,
@@ -21,7 +26,7 @@ export const LinkWrapper = styled(Link)<{ $isActive?: boolean }>`
     #Contact {
       visibility: hidden;
       opacity: 0;
-      transition: opacity 200ms;
+      transition: opacity 1s;
     }
 
     &:hover {
@@ -44,7 +49,6 @@ export const IconContainer = styled.div<{ $isActive?: boolean }>`
     width: fit-content;
     height: min-content;
     display: flex;
-    transition: all 1s;
     position: relative;
 
     svg {
@@ -53,18 +57,19 @@ export const IconContainer = styled.div<{ $isActive?: boolean }>`
 
       path {
         transition: all 500ms;
-
         stroke: ${$isActive ? colors.primary : colors.black};
       }
     }
   `}
 `;
 
-export const ItemText = styled.div<{ $isActive?: boolean }>`
+export const ItemText = styled.div<{
+  $isActive?: boolean;
+}>`
   ${({ theme: { colors }, $isActive }) => ` 
     font-weight: bold;
-    transition: all 500ms;
-
+    transition: width 500ms;
     color: ${$isActive ? colors.primary : colors.black};
+    overflow: hidden;
   `}
 `;

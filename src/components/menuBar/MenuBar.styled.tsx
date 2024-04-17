@@ -4,11 +4,11 @@ export const Container = styled.div<{ $isExpanded?: boolean }>`
   ${({ theme: { colors, spaces }, $isExpanded }) => `  
     display: flex;
     flex-direction: column;
-    min-width: ${$isExpanded ? "230px" : "74px"};
+    width: ${$isExpanded ? "230px" : "74px"};
     height: 100%;
     border-right: 1px solid ${colors.borderGray};
     background: ${colors.lightGray};
-    transition: min-width 300ms ease-in;
+    transition: width 1s ease-in-out;
     padding: ${spaces.mega};
     gap: ${spaces.kilo};
     box-sizing: border-box;
@@ -24,17 +24,17 @@ export const LogoWrapper = styled.div`
     box-sizing: border-box;
     border-radius: ${borderRadius};
     cursor: pointer;
+    position: relative;
   `};
 `;
 
 export const Logo = styled.div<{ $isExpanded?: boolean }>`
   display: flex;
   align-items: center;
-  height: fit-contet;
-  visibility: ${(props) => (props.$isExpanded ? "visible" : "hidden")};
-  opacity: ${(props) => (props.$isExpanded ? "1" : "0")};
+  height: fit-content;
   width: ${(props) => (props.$isExpanded ? "110px" : "0px")};
-  transition: opacity 100ms ease-in;
+  transition: width 1s ease-in-out;
+  overflow: hidden;
 `;
 
 export const IconContainer = styled.div<{ $isExpanded?: boolean }>`
