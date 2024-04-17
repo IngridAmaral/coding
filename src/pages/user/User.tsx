@@ -2,7 +2,7 @@ import Header from "@components/header/Header";
 
 const User = () => (
   <>
-    <Header title="User t" />
+    <Header title="User" />
   </>
 );
 
