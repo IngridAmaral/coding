@@ -3,11 +3,18 @@ import App from "./App.tsx";
 import Roadmap from "./pages/roadmap/Roadmap.tsx";
 import User from "./pages/user/User.tsx";
 import { createBrowserRouter } from "react-router-dom";
+import Progress from "./pages/progress/Progress.tsx";
+import Contact from "./pages/contact/Contact.tsx";
+import Billing from "./pages/billing/Billing.tsx";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <App>
+        <User />
+      </App>
+    ),
   },
   {
     path: "user",
@@ -35,14 +42,26 @@ export const router = createBrowserRouter([
   },
   {
     path: "progress",
-    element: <App></App>,
+    element: (
+      <App>
+        <Progress />
+      </App>
+    ),
   },
   {
     path: "billing",
-    element: <App></App>,
+    element: (
+      <App>
+        <Billing />
+      </App>
+    ),
   },
   {
     path: "contact",
-    element: <App></App>,
+    element: (
+      <App>
+        <Contact />
+      </App>
+    ),
   },
 ]);
