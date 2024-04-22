@@ -1,6 +1,9 @@
 import { useParams } from "react-router-dom";
 import Header from "@components/header/Header";
 import {
+  CheckBoxWrapper,
+  CheckBoxesWrapper,
+  CheckContainer,
   IconContainer,
   Plan,
   PlanName,
@@ -11,7 +14,7 @@ import {
 import { mockedResponse } from "../../mockResponse";
 import { useEffect, useState } from "react";
 import Loading from "../loading/Loading";
-import { CaretRight } from "@icons";
+import { CaretRight, Check } from "@icons";
 
 const Roadmap = () => {
   let { id } = useParams<{ id: keyof typeof mockedResponse.devices }>();
@@ -57,60 +60,81 @@ const Roadmap = () => {
                   }}
                   $isOpen={isFirstLayerOpen}
                 >
-                  {`${plan.name} 0/${plan.steps.length}`}
                   <IconContainer $isOpen={isFirstLayerOpen}>
                     <CaretRight />
                   </IconContainer>
+                  {`${plan.name} 0/${plan.steps.length}`}
                 </PlanName>
                 <StepsWrapper $isOpen={isFirstLayerOpen}>
                   {plan.steps.map((step, stepIdx) => (
-                    <Step
-                      $status={step.status}
-                      $isOpen={
-                        trackAccordion?.hasOwnProperty(idx) &&
-                        trackAccordion[idx][stepIdx] &&
-                        trackAccordion[idx][stepIdx]
-                      }
-                      onClick={() => {
-                        if (trackAccordion?.hasOwnProperty(idx)) {
-                          if (trackAccordion[idx][stepIdx]) {
-                            const { [stepIdx]: i, ...rest } =
-                              trackAccordion[idx];
-                            console.log("trackAccordion[idx][stepIdx]", 1),
-                              trackAccordion[idx][stepIdx];
-
-                            setTrackAccordion({
-                              ...trackAccordion,
-                              [idx]: {
-                                ...rest,
-                                [stepIdx]: !trackAccordion[idx][stepIdx],
-                              },
-                            });
-                          } else {
-                            console.log("trackAccordion[idx][stepIdx]", 0);
-                            setTrackAccordion({
-                              ...trackAccordion,
-                              [idx]: {
-                                ...trackAccordion[idx],
-                                [stepIdx]: true,
-                              },
-                            });
-                          }
+                    <div>
+                      <Step
+                        $status={step.status}
+                        $isOpen={
+                          trackAccordion?.hasOwnProperty(idx) &&
+                          trackAccordion[idx][stepIdx] &&
+                          trackAccordion[idx][stepIdx]
                         }
-                        console.log("trackAccordion step", trackAccordion);
-                      }}
-                    >
-                      {step.name}
-                      <IconContainer
+                        onClick={() => {
+                          if (trackAccordion?.hasOwnProperty(idx)) {
+                            if (trackAccordion[idx][stepIdx]) {
+                              const { [stepIdx]: i, ...rest } =
+                                trackAccordion[idx];
+                              console.log("trackAccordion[idx][stepIdx]", 1),
+                                trackAccordion[idx][stepIdx];
+
+                              setTrackAccordion({
+                                ...trackAccordion,
+                                [idx]: {
+                                  ...rest,
+                                  [stepIdx]: !trackAccordion[idx][stepIdx],
+                                },
+                              });
+                            } else {
+                              console.log("trackAccordion[idx][stepIdx]", 0);
+                              setTrackAccordion({
+                                ...trackAccordion,
+                                [idx]: {
+                                  ...trackAccordion[idx],
+                                  [stepIdx]: true,
+                                },
+                              });
+                            }
+                          }
+                          console.log("trackAccordion step", trackAccordion);
+                        }}
+                      >
+                        <IconContainer
+                          $isOpen={
+                            trackAccordion?.hasOwnProperty(idx) &&
+                            trackAccordion[idx][stepIdx] &&
+                            trackAccordion[idx][stepIdx]
+                          }
+                        >
+                          <CaretRight />
+                        </IconContainer>
+                        {step.name}
+                        <CheckContainer $status={step.status}>
+                          <Check />
+                        </CheckContainer>
+                      </Step>
+                      <CheckBoxesWrapper
                         $isOpen={
                           trackAccordion?.hasOwnProperty(idx) &&
                           trackAccordion[idx][stepIdx] &&
                           trackAccordion[idx][stepIdx]
                         }
                       >
-                        <CaretRight />
-                      </IconContainer>
-                    </Step>
+                        {step?.checklist.map(
+                          (item: { label: string; checked: boolean }) => (
+                            <CheckBoxWrapper>
+                              <input type="checkbox" />
+                              {item.label}
+                            </CheckBoxWrapper>
+                          )
+                        )}
+                      </CheckBoxesWrapper>
+                    </div>
                   ))}
                 </StepsWrapper>
               </Plan>

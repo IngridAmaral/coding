@@ -11,3 +11,5 @@ export { default as RoadMap } from "./RoadMap";
 export { default as Back } from "./Back";
 export { default as CaretRight } from "./CaretRight";
 export { default as Load } from "./Load";
+export { default as AccordionCaret } from "./AccordionCaret";
+export { default as Check } from "./Check";

@@ -18,24 +18,336 @@ export const mockedResponse = {
           name: "Planning",
           status: "done",
           steps: [
-            { name: "Device Basic Characteristics", status: "done" },
-            { name: "Software Proccesses", status: "done" },
-            { name: "Establish Quality Management System", status: "done" },
-            { name: "Device Classification", status: "done" },
+            {
+              name: "Device Basic Characteristics",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Software Proccesses",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Establish Quality Management System",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Device Classification",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
         {
           name: "Design and Development",
           status: "done",
           steps: [
-            { name: "Establish Risk Management System", status: "done" },
-            { name: "User Needs", status: "done" },
-            { name: "Software and Design Development", status: "done" },
+            {
+              name: "Establish Risk Management System",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "User Needs",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Software and Design Development",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "Purchasing, Sales and Suppliers",
               status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Design Stage Checklists", status: "done" },
+            {
+              name: "Design Stage Checklists",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
         {
@@ -45,18 +357,254 @@ export const mockedResponse = {
             {
               name: "Usability and Human Factors Egineering",
               status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Clinical Investigations", status: "done" },
+            {
+              name: "Clinical Investigations",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "Sorftware Verification and Validation",
               status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Complaints and Feedback", status: "done" },
-            { name: "Design Stage Checklists", status: "done" },
-            { name: "Training", status: "done" },
+            {
+              name: "Complaints and Feedback",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Design Stage Checklists",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Training",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "Testing and Validation Stage Checklists",
               status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
           ],
         },
@@ -67,26 +615,297 @@ export const mockedResponse = {
             {
               name: "Labeling, Instructions for Use, and Manuals",
               status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Post-Market Surveillance", status: "done" },
-            { name: "Clinical Evaluation", status: "done" },
+            {
+              name: "Post-Market Surveillance",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Clinical Evaluation",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "General Safety and Performance Requirements Checklist",
               status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Audist and Review", status: "done" },
+            {
+              name: "Audist and Review",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
         {
           name: "Submission",
           status: "done",
           steps: [
-            { name: "Declaration of Conformity", status: "done" },
+            {
+              name: "Declaration of Conformity",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "UDI Creation and EUDAMED Registration",
               status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Generate Technical File", status: "done" },
+            {
+              name: "Generate Technical File",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
       ],
@@ -104,24 +923,336 @@ export const mockedResponse = {
           name: "Planning",
           status: "done",
           steps: [
-            { name: "Device Basic Characteristics", status: "done" },
-            { name: "Software Proccesses", status: "done" },
-            { name: "Establish Quality Management System", status: "done" },
-            { name: "Device Classification", status: "done" },
+            {
+              name: "Device Basic Characteristics",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Software Proccesses",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Establish Quality Management System",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Device Classification",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
         {
           name: "Design and Development",
           status: "incomplete",
           steps: [
-            { name: "Establish Risk Management System", status: "done" },
-            { name: "User Needs", status: "incomplete" },
-            { name: "Software and Design Development", status: "done" },
+            {
+              name: "Establish Risk Management System",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "User Needs",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Software and Design Development",
+              status: "done",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "Purchasing, Sales and Suppliers",
               status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Design Stage Checklists", status: "incomplete" },
+            {
+              name: "Design Stage Checklists",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
         {
@@ -131,18 +1262,254 @@ export const mockedResponse = {
             {
               name: "Usability and Human Factors Egineering",
               status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Clinical Investigations", status: "incomplete" },
+            {
+              name: "Clinical Investigations",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "Sorftware Verification and Validation",
               status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Complaints and Feedback", status: "incomplete" },
-            { name: "Design Stage Checklists", status: "incomplete" },
-            { name: "Training", status: "incomplete" },
+            {
+              name: "Complaints and Feedback",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Design Stage Checklists",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Training",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "Testing and Validation Stage Checklists",
               status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
           ],
         },
@@ -153,26 +1520,297 @@ export const mockedResponse = {
             {
               name: "Labeling, Instructions for Use, and Manuals",
               status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Post-Market Surveillance", status: "incomplete" },
-            { name: "Clinical Evaluation", status: "incomplete" },
+            {
+              name: "Post-Market Surveillance",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
+            {
+              name: "Clinical Evaluation",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "General Safety and Performance Requirements Checklist",
               status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Audist and Review", status: "incomplete" },
+            {
+              name: "Audist and Review",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
         {
           name: "Submission",
           status: "none",
           steps: [
-            { name: "Declaration of Conformity", status: "incomplete" },
+            {
+              name: "Declaration of Conformity",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
             {
               name: "UDI Creation and EUDAMED Registration",
               status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
             },
-            { name: "Generate Technical File", status: "incomplete" },
+            {
+              name: "Generate Technical File",
+              status: "incomplete",
+              checklist: [
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+                {
+                  label:
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tempus ligula.",
+                  checked: true,
+                },
+              ],
+            },
           ],
         },
       ],
